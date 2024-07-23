@@ -30,3 +30,25 @@ show();
 // console.log(functionVar); // Throws ReferenceError
 // console.log(functionLet); // Throws ReferenceError
 // console.log(functionConst); // Throws ReferenceError
+
+{
+    let value1 = 'value 1'
+    const value2 = 'value 2'
+    var value3 = 'value 3'
+
+    // value1 = 'value 4'
+    // value2 = 'value 5'
+    // value3 = 'value 6'
+
+    // console.log( value1 )
+    // console.log( value2 )
+    // console.log( value3 )
+}
+
+value1 = 'value 4'
+value2 = 'value 5'
+value3 = 'value 6'
+
+console.log( value1 )
+console.log( value2 )
+console.log( value3 )

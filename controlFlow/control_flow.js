@@ -51,3 +51,27 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+// Practice task
+let personRole = "Employee"
+let message
+
+
+switch( personRole ) {
+    case 'Employee':
+        message = 'You have access to the Dietary Service only.'
+        break
+
+    case 'Enrolled Member':
+        message = 'You have access to the Dietary Service and one-to-one interaction with a dietician.'
+        break
+
+    case 'Subscriber':
+        message = 'You have partial access to faciliate Dietary Service only.'
+        break
+
+    default:
+        message = 'You need to enroll or at least subscribe to avail this facility.'
+}
+
+console.log( 'Person message: ', message )
